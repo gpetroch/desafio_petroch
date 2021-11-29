@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: 'Titillium Web', sans-serif;
+  }
+  
+  .navbar{
+    min-height: 12s0px;
+    background-color: #5d635c;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  h1{
+    font-weight: 800;
+    font-family: 'DM Serif Text', serif;
+    max-width: 550px;
+    font-size: 60px;
+    line-height: 55px;
+  
+  }
+  
+  .textIndex{
+    margin-top: 30px;
+  }
+  
+  .nav-link{
+    color: white;
+  }
+  .nav-link:hover{
+    color: rgb(230, 230, 230);
+    transform: scale(1.1)
+  }
+  
+  .logoNBK{
+    min-width: 200px;
+    max-width: 220px;
+  }
+  
+  .navbar-toggler{
+    font-size: 40px;
+    color: white;
+  }
+  
+  
+  .imgEffects{
+   justify-content: right;}
+  
+  .imgEffects:hover{
+    transform: scale(1.02);
+   transition: transform 0.3s ease-in;
+  }
+  
+  
+  .textoMain{
+  background-color: none;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 40px;}
+  
+  
+  .imgImg{
+    background-color: none;
+    max-width: 100vw;
+    align-content: center;
+    overflow-x: scroll;
+  }
+  
+  .contentCenter{
+    max-width: 100px;
+    text-align: left center;
+    background-color: greenyellow;
+    margin: 60px;
+  }
+  
+  /* CARD CONTACTO*/
+  .card{
+    background-color: whitesmoke;
+    max-width: 600px;
+    justify-content: center;
+  }
+  
+  h3{
+    font-size: 23px;
+    font-weight: 800;
+    font-family: 'DM Serif Text', serif;
+  }
+  .textContacto {
+    background-color: tomato;
+  }

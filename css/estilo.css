@@ -110,10 +110,6 @@
 
 
   /* FOOTER*/
-  
-.footerPrueba {
-  width: 100vw;
-}
 
 .envioGratis{
     min-height: 12s 0px;
@@ -129,12 +125,6 @@
   .paddingpreFooter{
     margin: 100px;
   }
-
-  .botonContactoFooter {
-    align-items: center;
-    min-height: 12s 100px;
-  }
-  
   .copyrightFooter {
     font-size: 12px;
   }

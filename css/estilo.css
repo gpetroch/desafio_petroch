@@ -9,7 +9,7 @@
   }
   
   .navbar{
-    min-height: 12s 0px;
+    min-height: 12s 100px;
     background-color: #5d635c;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   }
@@ -86,11 +86,14 @@
     margin: 60px;
   }
   
-  /* CARD CONTACTO*/
+
+
+  /* INICIO CARD CONTACTO*/
   .card{
     background-color: whitesmoke;
-    max-width: 600px;
+    max-width: 500px;
     justify-content: center;
+    margin: 20px;
   }
   
   h3{
@@ -99,19 +102,20 @@
     font-family: 'DM Serif Text', serif;
   }
   .textContacto {
-    background-color: tomato;
+    background-color: none;
   }
+/* FIN CARD CONTACTO*/
+
+
 
 
   /* FOOTER*/
   
-  .footer {
-    min-height: 12s0px;
-    background-color: #5d635c;
-    padding-bottom: 0%;
-  }
+.footerPrueba {
+  width: 100vw;
+}
 
-  .envioGratis{
+.envioGratis{
     min-height: 12s 0px;
     background-color: #a3aa9f;
     text-align: center;
@@ -122,13 +126,23 @@
     font-size: 12px;
    }
 
-   .botonContactoFooter{
-    display: inline-flex;
-   }
+  .paddingpreFooter{
+    margin: 100px;
+  }
+
+  .botonContactoFooter {
+    align-items: center;
+    min-height: 12s 100px;
+  }
+  
+  .copyrightFooter {
+    font-size: 12px;
+  }
+
+/* FIN FOOTER*/
 
 
-
-   /*ESTILO TESTIMONIOS*/
+/*INICIO ESTILO TESTIMONIOS*/
 
 
    .textoTestimonios {
@@ -230,6 +244,6 @@
   }
 
 
-  .paddingpreFooter{
-    margin: 100px;
-  }
+  /*FIN ESTILO TESTIMONIOS*/
+
+
